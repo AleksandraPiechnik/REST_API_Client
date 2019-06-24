@@ -1,0 +1,13 @@
+Application which proves the theory of six degrees of separation.
+“According to the six-degree theory of separation, each of us divides only six contacts from any chosen person in the world”.
+
+The aim of the task is to repeat the experiment of Patrick Reynolds from 1999 (https://oracleofbacon.org/), who investigated the links 
+between actors playing together in movies. 
+Application uses the database of movies and actors IMDB service as the REST API as input data.
+
+An implementation is based on an non-directed graph chart, in which the vertexes are the actors, and the edges  the film - in which they met.
+
+Application allows to determine the shortest path between the two actors. User can give name and surname of two persons and application 
+bases their ID from the IMDB website from the database. 
+
+Short example: Brandon Lee and Ernie Hudson

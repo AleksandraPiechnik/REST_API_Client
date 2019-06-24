@@ -10,4 +10,6 @@ An implementation is based on an non-directed graph chart, in which the vertexes
 Application allows to determine the shortest path between the two actors. User can give name and surname of two persons and application 
 bases their ID from the IMDB website from the database. 
 
-Short example: Brandon Lee and Ernie Hudson
+Short example: Brandon Lee and Ernie Hudson(more screenshots in directory examples images)
+
+If program doesn’t work, make sure kanban.fxml file is in out/production/lab8-JavaFX-zapisStanu/view directory. If not copy fxml file in it.
